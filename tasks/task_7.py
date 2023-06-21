@@ -1,5 +1,13 @@
-a = "-16"
-b = "39.8"
+a: str = "-16"
+b: str = "39.8"
 
-add =(-16+39.8)  # здесь Ваш код
-print("Сумма чисел:", (-16+39.8)  # допишите код
+# c: int = int(a)
+# d: float = float(b)
+#
+# add: float = c + d
+# print("Сумма чисел:", add)
+
+# -----
+
+add: float = int(a) + float(b)
+print("Сумма чисел:", add)
